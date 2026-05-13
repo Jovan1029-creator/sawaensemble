@@ -1,0 +1,246 @@
+
+> sawa-ensemble@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.17:3000
+
+ ✓ Starting...
+ ✓ Ready in 1928ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4s (1575 modules)
+ GET / 200 in 4515ms
+ GET / 200 in 474ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 671ms (1580 modules)
+ GET /images/sawa/hero-gather.jpg 404 in 907ms
+ GET /images/sawa/hero-gather.jpg 404 in 70ms
+ GET /notification-worker.js 404 in 42ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 198ms
+ GET /images/sawa/artists/samuel.jpg 404 in 213ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 219ms
+ GET /images/sawa/artists/omar.jpg 404 in 224ms
+ GET /images/sawa/hero-remember.jpg 404 in 48ms
+ GET /images/sawa/hero-move.jpg 404 in 40ms
+ GET /images/sawa/hero-rise.jpg 404 in 46ms
+ GET /images/sawa/hero-remember.jpg 404 in 41ms
+ ✓ Compiled /about in 314ms (1573 modules)
+ GET /about 200 in 418ms
+ GET /images/sawa/hero-gather.jpg 404 in 108ms
+ ✓ Compiled /artists in 336ms (1578 modules)
+ GET /artists 200 in 432ms
+ GET /images/sawa/artists/samuel.jpg 404 in 271ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 286ms
+ GET /images/sawa/artists/yassin.jpg 404 in 292ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 298ms
+ GET /images/sawa/artists/mohamed.jpg 404 in 305ms
+ GET /images/sawa/artists/omar.jpg 404 in 310ms
+ GET /images/sawa/artists/iddi.jpg 404 in 93ms
+ GET /images/sawa/artists/yussuf.jpg 404 in 98ms
+ GET /images/sawa/artists/samuel.jpg 404 in 38ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 42ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 39ms
+ GET /images/sawa/artists/omar.jpg 404 in 49ms
+ GET /images/sawa/artists/yassin.jpg 404 in 45ms
+ GET /images/sawa/artists/mohamed.jpg 404 in 41ms
+ GET /images/sawa/artists/iddi.jpg 404 in 43ms
+ ○ Compiling /workshops ...
+ ✓ Compiled /workshops in 623ms (1585 modules)
+ GET /workshops 200 in 704ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 86ms
+ GET /images/sawa/workshops/pottery.jpg 404 in 51ms
+ GET / 200 in 57ms
+ GET /images/sawa/hero-gather.jpg 404 in 42ms
+ GET /images/sawa/hero-gather.jpg 404 in 48ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 643ms (1616 modules)
+ GET /contact 200 in 721ms
+ GET /contact 200 in 74ms
+ GET / 200 in 53ms
+ GET /images/sawa/hero-gather.jpg 404 in 90ms
+ GET / 200 in 37ms
+ GET /images/sawa/hero-remember.jpg 404 in 52ms
+ GET /images/sawa/artists/samuel.jpg 404 in 56ms
+ GET /images/sawa/hero-move.jpg 404 in 55ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 44ms
+ GET /images/sawa/hero-rise.jpg 404 in 44ms
+ GET /images/sawa/hero-remember.jpg 404 in 50ms
+ GET /images/sawa/hero-move.jpg 404 in 46ms
+ GET /images/sawa/hero-rise.jpg 404 in 58ms
+ GET /images/sawa/hero-gather.jpg 404 in 65ms
+ GET /images/sawa/hero-remember.jpg 404 in 64ms
+ GET /images/sawa/hero-gather.jpg 404 in 48ms
+ GET / 200 in 261ms
+ GET /images/sawa/hero-gather.jpg 404 in 67ms
+ GET /images/sawa/hero-move.jpg 404 in 47ms
+ GET /images/sawa/hero-rise.jpg 404 in 41ms
+ GET /images/sawa/hero-remember.jpg 404 in 46ms
+ GET /images/sawa/hero-move.jpg 404 in 56ms
+ GET /images/sawa/hero-rise.jpg 404 in 43ms
+ GET /images/sawa/hero-remember.jpg 404 in 43ms
+ GET /images/sawa/hero-move.jpg 404 in 44ms
+ GET /images/sawa/hero-rise.jpg 404 in 41ms
+ GET /images/sawa/hero-gather.jpg 404 in 56ms
+ GET /images/sawa/hero-remember.jpg 404 in 108ms
+ GET /images/sawa/hero-move.jpg 404 in 52ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 125ms
+ GET /images/sawa/artists/omar.jpg 404 in 129ms
+ GET /images/sawa/artists/yassin.jpg 404 in 210ms
+ GET /images/sawa/artists/mohamed.jpg 404 in 226ms
+ GET /images/sawa/artists/iddi.jpg 404 in 232ms
+ GET /images/sawa/artists/yussuf.jpg 404 in 238ms
+ GET /images/sawa/hero-rise.jpg 404 in 54ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 50ms
+ GET /images/sawa/hero-gather.jpg 404 in 44ms
+ GET /images/sawa/hero-remember.jpg 404 in 51ms
+ GET /images/sawa/hero-move.jpg 404 in 67ms
+ GET /images/sawa/hero-rise.jpg 404 in 55ms
+ GET /images/sawa/hero-remember.jpg 404 in 48ms
+ GET /images/sawa/hero-move.jpg 404 in 66ms
+ GET /images/sawa/hero-rise.jpg 404 in 57ms
+ GET /images/sawa/hero-gather.jpg 404 in 52ms
+ GET /images/sawa/hero-remember.jpg 404 in 51ms
+ GET /images/sawa/hero-move.jpg 404 in 70ms
+ GET /images/sawa/hero-rise.jpg 404 in 55ms
+ GET /images/sawa/hero-remember.jpg 404 in 50ms
+ GET /images/sawa/hero-move.jpg 404 in 64ms
+ GET /images/sawa/hero-rise.jpg 404 in 46ms
+ GET /images/sawa/hero-gather.jpg 404 in 49ms
+ GET /images/sawa/hero-remember.jpg 404 in 45ms
+ GET /images/sawa/hero-move.jpg 404 in 45ms
+ GET /images/sawa/hero-rise.jpg 404 in 46ms
+ GET /images/sawa/hero-remember.jpg 404 in 46ms
+ GET /images/sawa/hero-move.jpg 404 in 49ms
+ GET /images/sawa/hero-rise.jpg 404 in 46ms
+ GET /images/sawa/hero-gather.jpg 404 in 44ms
+ GET /images/sawa/hero-remember.jpg 404 in 44ms
+ GET /images/sawa/hero-gather.jpg 404 in 49ms
+ ✓ Compiled in 830ms (1611 modules)
+ ✓ Compiled in 381ms (712 modules)
+ GET / 200 in 491ms
+ GET / 200 in 483ms
+ GET / 200 in 108ms
+ GET / 200 in 112ms
+ ✓ Compiled in 482ms (1611 modules)
+ GET / 200 in 153ms
+ GET / 200 in 155ms
+ GET / 200 in 341ms
+ ✓ Compiled in 547ms (1611 modules)
+ GET / 200 in 160ms
+ GET / 200 in 163ms
+ GET / 200 in 310ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 872ms (1602 modules)
+ GET /images/sawa/hero-remember.jpg 404 in 1022ms
+ GET /images/sawa/hero-move.jpg 404 in 42ms
+ GET /images/sawa/hero-rise.jpg 404 in 48ms
+ GET /images/sawa/hero-remember.jpg 404 in 48ms
+ GET /images/sawa/hero-move.jpg 404 in 47ms
+ GET /images/sawa/hero-rise.jpg 404 in 45ms
+ GET /audio/rise.mp3 404 in 50ms
+ GET /audio/gather.mp3 404 in 44ms
+ GET /images/sawa/hero-gather.jpg 404 in 44ms
+ GET /audio/remember.mp3 404 in 48ms
+ GET /images/sawa/hero-remember.jpg 404 in 52ms
+ GET /audio/move.mp3 404 in 44ms
+ GET /images/sawa/hero-move.jpg 404 in 44ms
+ GET /audio/rise.mp3 404 in 46ms
+ GET /images/sawa/hero-rise.jpg 404 in 48ms
+ GET /audio/remember.mp3 404 in 44ms
+ GET /images/sawa/hero-remember.jpg 404 in 50ms
+ GET /audio/move.mp3 404 in 48ms
+ GET /images/sawa/hero-move.jpg 404 in 40ms
+ GET /audio/rise.mp3 404 in 43ms
+ GET /images/sawa/hero-rise.jpg 404 in 45ms
+ GET /audio/gather.mp3 404 in 45ms
+ GET /images/sawa/hero-gather.jpg 404 in 41ms
+ GET /images/sawa/workshops/pottery.jpg 404 in 42ms
+ GET /images/sawa/workshops/bracelet.jpg 404 in 43ms
+ GET /images/sawa/workshops/eco-printing.jpg 404 in 47ms
+ GET /audio/remember.mp3 404 in 49ms
+ GET /images/sawa/hero-remember.jpg 404 in 44ms
+ GET /audio/move.mp3 404 in 48ms
+ GET /images/sawa/hero-move.jpg 404 in 63ms
+ GET /audio/rise.mp3 404 in 50ms
+ GET /images/sawa/hero-rise.jpg 404 in 47ms
+ GET /audio/remember.mp3 404 in 64ms
+ GET /images/sawa/hero-remember.jpg 404 in 47ms
+ GET /artists 200 in 64ms
+ GET /images/sawa/artists/yassin.jpg 404 in 54ms
+ GET /images/sawa/artists/mohamed.jpg 404 in 128ms
+ GET /images/sawa/artists/iddi.jpg 404 in 132ms
+ GET /images/sawa/artists/yussuf.jpg 404 in 136ms
+ GET /images/sawa/artists/omar.jpg 404 in 52ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 48ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 55ms
+ GET /images/sawa/artists/samuel.jpg 404 in 46ms
+ GET /images/sawa/artists/yassin.jpg 404 in 230ms
+ GET /images/sawa/artists/mohamed.jpg 404 in 233ms
+ GET /images/sawa/artists/iddi.jpg 404 in 237ms
+ GET /images/sawa/artists/yussuf.jpg 404 in 240ms
+ GET /images/sawa/artists/samuel.jpg 404 in 181ms
+ GET /images/sawa/artists/ibrahim.jpg 404 in 187ms
+ GET /images/sawa/artists/omar.jpg 404 in 191ms
+ GET /images/sawa/artists/iptitham.jpg 404 in 196ms
+ GET /workshops 200 in 61ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 105ms
+ GET /images/sawa/workshops/pottery.jpg 404 in 51ms
+ ○ Compiling /performances ...
+ ✓ Compiled /performances in 907ms (1625 modules)
+ ✓ Compiled in 263ms (717 modules)
+ GET /performances 200 in 1196ms
+ GET /performances 200 in 46ms
+ GET /performances 200 in 37ms
+ GET /workshops 200 in 38ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 182ms
+ GET /contact 200 in 45ms
+ ○ Compiling /media ...
+ ✓ Compiled /media in 622ms (1640 modules)
+ GET /media 200 in 720ms
+ GET /media 200 in 43ms
+ GET /images/sawa/hero-rise.jpg 404 in 181ms
+ GET /images/sawa/hero-gather.jpg 404 in 197ms
+ GET /images/sawa/hero-move.jpg 404 in 203ms
+ GET /images/sawa/hero-remember.jpg 404 in 209ms
+ GET /images/sawa/hero-rise.jpg 404 in 65ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 133ms
+ GET /images/sawa/workshops/makuti.jpg 404 in 138ms
+ GET /contact 200 in 41ms
+ GET /images/sawa/hero-rise.jpg 404 in 53ms
+ GET /images/sawa/hero-gather.jpg 404 in 127ms
+ GET /images/sawa/hero-move.jpg 404 in 133ms
+ GET /images/sawa/hero-remember.jpg 404 in 139ms
+ GET /images/sawa/hero-rise.jpg 404 in 124ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 128ms
+ GET /images/sawa/workshops/makuti.jpg 404 in 136ms
+ GET /images/sawa/hero-rise.jpg 404 in 128ms
+ GET /images/sawa/hero-remember.jpg 404 in 132ms
+ GET /images/sawa/hero-move.jpg 404 in 136ms
+ GET /media 200 in 31ms
+ GET /workshops 200 in 35ms
+ GET /images/sawa/workshops/ngoma.jpg 404 in 50ms
+ GET /performances 200 in 38ms
+ ✓ Compiled in 243ms (716 modules)
+ ✓ Compiled in 144ms (716 modules)
+ GET /performances 200 in 148ms
+ GET /performances 200 in 33ms
+ ✓ Compiled in 1558ms (1602 modules)
+ GET /performances 200 in 148ms
+ ✓ Compiled /_not-found in 316ms (1607 modules)
+ GET /performances 404 in 425ms
+ GET /performances 200 in 76ms
+ GET /performances 200 in 293ms
+ GET /workshops 404 in 65ms
+ GET /artists 404 in 21ms
+ GET /artists 404 in 72ms
+ GET /notification-worker.js 404 in 69ms
+ GET /notification-worker.js 404 in 61ms
+ ✓ Compiled in 1211ms (1621 modules)
+ ✓ Compiled in 420ms (1621 modules)
+ GET /contact 200 in 302ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3s (1626 modules)
+ GET /stocktake 404 in 3578ms
+ GET /dashboard 404 in 3497ms
+ GET /notification-worker.js 404 in 89ms
