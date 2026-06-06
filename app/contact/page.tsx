@@ -12,7 +12,7 @@ import { contactPhoneDisplay, whatsappUrl } from "@/data/contact";
 export const metadata: Metadata = {
   title: "Contact and Bookings",
   description:
-    "Contact SAWA Ensemble for performance bookings, workshop inquiries, community programs, and media requests in Kizimkazi, Zanzibar."
+    "Contact SAWA Ensemble for performance bookings, workshop inquiries, community programs, and gallery requests in Kizimkazi, Zanzibar."
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
               Bring SAWA into the room.
             </h1>
             <p className="mt-8 max-w-3xl text-lg leading-9 text-ivory/70">
-              Book the ensemble, host a workshop, ask about media, or begin a
+              Book the ensemble, host a workshop, ask about gallery access, or begin a
               cultural collaboration with SAWA and the Assalam Community
               Foundation.
             </p>
@@ -92,7 +92,7 @@ export default function ContactPage() {
             {[
               {
                 title: "General contact",
-                text: `Questions, bookings, media requests, and partnership conversations can go directly to WhatsApp at ${contactPhoneDisplay}.`,
+                text: `Questions, bookings, gallery requests, and partnership conversations can go directly to WhatsApp at ${contactPhoneDisplay}.`,
                 icon: Mail,
                 action: "Message WhatsApp"
               },

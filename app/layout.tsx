@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "SAWA Ensemble",
     images: [
       {
-        url: "/images/sawa/hero-rise.jpg",
+        url: "/images/sawa/landing/Squad.jpg",
         width: 1600,
         height: 900,
         alt: "SAWA Ensemble performing in a cinematic coastal atmosphere"
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
     title: "SAWA Ensemble",
     description:
       "Storytelling, Art, and the Wonders of Africa from Kizimkazi, Zanzibar.",
-    images: ["/images/sawa/hero-rise.jpg"]
+    images: ["/images/sawa/landing/Squad.jpg"]
   }
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#050504",
+  themeColor: "#2A1A5E",
   colorScheme: "dark"
 };
 
@@ -62,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body>
         <ReducedMotionProvider>
           <AccessibilitySkipLink />

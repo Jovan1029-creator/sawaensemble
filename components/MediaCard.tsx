@@ -38,7 +38,7 @@ export function MediaCard({ item, className }: MediaCardProps) {
     >
       <SafeImage
         src={item.image}
-        alt={`${item.title} media placeholder`}
+        alt={`${item.title} gallery item`}
         className="aspect-[16/11]"
         imageClassName="transition duration-700 group-hover:scale-105"
         sizes="(min-width: 1024px) 33vw, 100vw"
@@ -55,7 +55,7 @@ export function MediaCard({ item, className }: MediaCardProps) {
           {item.description}
         </p>
         <Button asChild variant="ghost" className="mt-4">
-          <Link href="/media">
+          <Link href="/gallery">
             {item.action}
             <ArrowUpRight aria-hidden="true" />
           </Link>

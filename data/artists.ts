@@ -13,7 +13,7 @@ export const artists: Artist[] = [
     slug: "samuel-martin-maningi",
     name: "Samuel Martin Maningi",
     role: "Artist, educator, choreographer, cultural practitioner",
-    portrait: "/images/sawa/artists/samuel.jpg",
+    portrait: "/images/sawa/artists/sam.JPG",
     intro: "A movement-maker shaping rooms where discipline, devotion, and community meet.",
     tags: ["Movement", "Education", "Cultural practice"],
     biography: [
@@ -26,7 +26,7 @@ export const artists: Artist[] = [
     slug: "ibrahim-kamuli-shija",
     name: "Ibrahim Kamuli Shija",
     role: "Musician and creative practitioner",
-    portrait: "/images/sawa/artists/ibrahim.jpg",
+    portrait: "/images/sawa/artists/ibra.JPG",
     intro: "A musician attuned to pulse, silence, and the emotional shape of ensemble sound.",
     tags: ["Music", "Rhythm", "Creative practice"],
     biography: [
@@ -39,7 +39,7 @@ export const artists: Artist[] = [
     slug: "iptitham-is-haka-mahmoud",
     name: "Iptitham Is-haka Mahmoud",
     role: "Performer, storyteller, dancer, mother, creator",
-    portrait: "/images/sawa/artists/iptitham.jpg",
+    portrait: "/images/sawa/artists/Ipthitham.JPG",
     intro: "A storyteller of body and voice, carrying tenderness, strength, and lived memory.",
     tags: ["Story", "Dance", "Performance"],
     biography: [
@@ -52,7 +52,7 @@ export const artists: Artist[] = [
     slug: "omar-muhamed-ali-omigo",
     name: "Omar Muhamed Ali \"Omigo\"",
     role: "Musician, brass teacher, mentor, band leader",
-    portrait: "/images/sawa/artists/omar.jpg",
+    portrait: "/images/sawa/artists/Omar.JPG",
     intro: "A band leader and mentor whose sound opens doors for younger musicians.",
     tags: ["Brass", "Mentorship", "Band leadership"],
     biography: [
@@ -65,7 +65,7 @@ export const artists: Artist[] = [
     slug: "yassin-abdil-kinghasira",
     name: "Yassin Abdil \"KingHasira\"",
     role: "Costume designer, storyteller, performer, creative teacher",
-    portrait: "/images/sawa/artists/yassin.jpg",
+    portrait: "/images/sawa/artists/King.JPG",
     intro: "A visual storyteller bringing costume, character, and teaching into the circle.",
     tags: ["Costume", "Storytelling", "Teaching"],
     biography: [
@@ -78,7 +78,7 @@ export const artists: Artist[] = [
     slug: "mohamed-ramadhan-mbalawa",
     name: "Mohamed Ramadhan Mbalawa",
     role: "Vocal artist and composer",
-    portrait: "/images/sawa/artists/mohamed.jpg",
+    portrait: "/images/sawa/artists/Mudi.JPG",
     intro: "A voice and composer shaping melody as devotion, memory, and invitation.",
     tags: ["Voice", "Composition", "Melody"],
     biography: [
@@ -91,7 +91,7 @@ export const artists: Artist[] = [
     slug: "iddi-omar-pandu",
     name: "Iddi Omar Pandu",
     role: "Kaswida artist and developing performer",
-    portrait: "/images/sawa/artists/iddi.jpg",
+    portrait: "/images/sawa/artists/iddi.JPG",
     intro: "A devotional voice in development, bringing kaswida lineage into new performance space.",
     tags: ["Kaswida", "Devotion", "Performance"],
     biography: [
@@ -104,7 +104,7 @@ export const artists: Artist[] = [
     slug: "yussuf-abdul-khamis",
     name: "Yussuf Abdul Khamis",
     role: "Musician, producer, studio founder, band leader",
-    portrait: "/images/sawa/artists/yussuf.jpg",
+    portrait: "/images/sawa/artists/Yussuf.JPG",
     intro: "A sound builder connecting rehearsal room, studio, stage, and ensemble leadership.",
     tags: ["Production", "Music", "Leadership"],
     biography: [

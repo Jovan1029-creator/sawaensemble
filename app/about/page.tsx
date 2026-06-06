@@ -44,7 +44,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={0.15}>
             <SafeImage
-              src="/images/sawa/hero-gather.jpg"
+              src="/images/sawa/landing/Sufi Fest_2026_Day one_024.jpg"
               alt="SAWA Ensemble origin in Kizimkazi placeholder"
               className="aspect-[4/5] rounded-[2rem] border border-ivory/15 shadow-ocean"
               sizes="(min-width: 1024px) 38vw, 100vw"
@@ -118,7 +118,7 @@ export default function AboutPage() {
               </div>
             </Reveal>
             <Reveal delay={0.1}>
-              <div className="rounded-[1.75rem] border border-ivory/15 bg-[linear-gradient(135deg,rgba(216,166,66,0.14),rgba(80,125,84,0.1),rgba(29,105,130,0.12))] p-7 sm:p-9">
+              <div className="rounded-[1.75rem] border border-ivory/15 bg-[linear-gradient(135deg,rgba(251,229,85,0.14),rgba(251,146,36,0.1),rgba(42,26,94,0.22))] p-7 sm:p-9">
                 <h2 className="font-display text-5xl leading-none text-ivory">
                   Ensemble as learning space.
                 </h2>

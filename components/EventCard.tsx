@@ -22,7 +22,7 @@ export function EventCard({ event, featured = false, className }: EventCardProps
     <motion.article
       className={cn(
         "relative overflow-hidden rounded-[1.75rem] border border-ivory/15 bg-charcoal-900/70 p-6 shadow-ocean sm:p-8",
-        featured && "kanga-strip bg-[linear-gradient(135deg,rgba(216,166,66,0.14),rgba(29,105,130,0.1)_46%,rgba(180,94,60,0.12))]",
+        featured && "kanga-strip bg-[linear-gradient(135deg,rgba(251,229,85,0.16),rgba(251,146,36,0.12)_46%,rgba(244,89,5,0.14))]",
         className
       )}
       whileHover={prefersReducedMotion ? undefined : { y: -6 }}

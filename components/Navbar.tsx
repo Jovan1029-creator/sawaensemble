@@ -12,9 +12,9 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/artists", label: "Artists" },
-  { href: "/workshops", label: "Workshops" },
+  { href: "/#services", label: "Services" },
   { href: "/performances", label: "Performances" },
-  { href: "/media", label: "Media" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" }
 ];
 
@@ -49,7 +49,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) => {
-            const active = pathname === item.href;
+            const active = item.href.startsWith("/#") ? false : pathname === item.href;
             return (
               <Link
                 key={item.href}
@@ -105,7 +105,7 @@ export function Navbar() {
           >
             <div className="grid gap-1">
               {navItems.map((item) => {
-                const active = pathname === item.href;
+                const active = item.href.startsWith("/#") ? false : pathname === item.href;
                 return (
                   <Link
                     key={item.href}

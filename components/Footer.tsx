@@ -6,9 +6,9 @@ import { contactPhoneDisplay, whatsappUrl } from "@/data/contact";
 const footerLinks = [
   { href: "/about", label: "About" },
   { href: "/artists", label: "Artists" },
-  { href: "/workshops", label: "Workshops" },
+  { href: "/#services", label: "Services" },
   { href: "/performances", label: "Performances" },
-  { href: "/media", label: "Media" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" }
 ];
 

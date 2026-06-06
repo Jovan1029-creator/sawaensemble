@@ -32,7 +32,7 @@ export function SafeImage({
   return (
     <div
       className={cn(
-        "relative overflow-hidden bg-[radial-gradient(circle_at_30%_20%,rgba(216,166,66,0.22),transparent_26%),radial-gradient(circle_at_80%_30%,rgba(29,105,130,0.2),transparent_30%),linear-gradient(135deg,#15110c,#070605_55%,#16211a)]",
+        "relative overflow-hidden bg-[radial-gradient(circle_at_30%_20%,rgba(251,229,85,0.24),transparent_26%),radial-gradient(circle_at_80%_30%,rgba(244,89,5,0.24),transparent_30%),linear-gradient(135deg,#2A1A5E,#120B28_55%,#F45905)]",
         className
       )}
     >

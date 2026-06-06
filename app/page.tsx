@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, HandHeart, Paintbrush, Sprout, UsersRound } from "lucide-react";
+import { ArrowUpRight, HandHeart } from "lucide-react";
 import { ArtistCard } from "@/components/ArtistCard";
 import { CTASection } from "@/components/CTASection";
 import { EventCard } from "@/components/EventCard";
@@ -8,31 +8,13 @@ import { MediaCard } from "@/components/MediaCard";
 import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
+import { ServiceCard } from "@/components/ServiceCard";
 import { StoryBlock } from "@/components/StoryBlock";
-import { WorkshopCard } from "@/components/WorkshopCard";
 import { Button } from "@/components/ui/button";
 import { artists } from "@/data/artists";
 import { featuredEvent } from "@/data/events";
 import { mediaItems } from "@/data/media";
-import { workshops } from "@/data/workshops";
-
-const pillars = [
-  {
-    title: "Storytelling",
-    text: "Voices carrying memory, devotion, and lived experience.",
-    icon: UsersRound
-  },
-  {
-    title: "Art",
-    text: "Movement, music, craft, theatre, and ritual in one living space.",
-    icon: Paintbrush
-  },
-  {
-    title: "Wonders of Africa",
-    text: "A celebration of heritage as something present, evolving, and shared.",
-    icon: Sprout
-  }
-];
+import { services } from "@/data/services";
 
 const communityActivities = [
   "Traditional dance",
@@ -51,28 +33,26 @@ export default function HomePage() {
     <PageTransition>
       <HeroSawaStates />
 
-      <section id="experience" className="bg-charcoal-950 py-8">
+      <section id="services" className="scroll-mt-24 bg-charcoal-950 py-24 sm:py-32">
         <div className="container">
-          <div className="grid overflow-hidden rounded-[1.75rem] border border-ivory/15 bg-ivory/[0.045] md:grid-cols-3">
-            {pillars.map((pillar) => {
-              const Icon = pillar.icon;
-              return (
-                <Reveal key={pillar.title} className="border-ivory/10 p-6 md:border-r last:md:border-r-0">
-                  <Icon className="size-6 text-gold" aria-hidden="true" />
-                  <h2 className="mt-5 font-display text-3xl text-ivory">
-                    {pillar.title}
-                  </h2>
-                  <p className="mt-3 text-sm leading-7 text-ivory/65">
-                    {pillar.text}
-                  </p>
-                </Reveal>
-              );
-            })}
+          <Reveal>
+            <SectionHeading
+              eyebrow="Our Services"
+              title="Three ways SAWA enters the room."
+              text="SAWA offers cultural experiences shaped for schools, stages, festivals, retreats, and community gatherings."
+            />
+          </Reveal>
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {services.map((service, index) => (
+              <Reveal key={service.title} delay={index * 0.08}>
+                <ServiceCard service={service} />
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="py-24 sm:py-32">
+      <section id="experience" className="py-24 sm:py-32">
         <div className="container grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <Reveal>
             <SectionHeading
@@ -139,32 +119,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-charcoal-950 py-24 sm:py-32">
-        <div className="container">
-          <Reveal>
-            <SectionHeading
-              eyebrow="Workshops"
-              title="Learning happens through the hands, feet, and voice."
-              text="Premium cultural workshops rooted in rhythm, craft, coastal knowledge, and shared practice."
-            />
-          </Reveal>
-          <div className="mt-12 grid gap-7">
-            {workshops.map((workshop, index) => (
-              <Reveal key={workshop.slug} delay={index * 0.05}>
-                <WorkshopCard workshop={workshop} />
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="py-24 sm:py-32">
         <div className="container">
           <Reveal>
             <SectionHeading
-              eyebrow="Media"
-              title="Listen. Watch. Enter the archive."
-              text="A growing media home for audio previews, performance films, rehearsal fragments, portraits, and stories behind the work."
+              eyebrow="Gallery"
+              title="Look. Listen. Enter the archive."
+              text="A growing gallery home for audio previews, performance films, rehearsal fragments, portraits, and stories behind the work."
             />
           </Reveal>
           <div className="mt-12 grid gap-6 md:grid-cols-3">

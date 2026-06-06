@@ -2,47 +2,35 @@
 
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowDown, CalendarDays, MapPin, Sparkles } from "lucide-react";
+import { ArrowDown, MapPin, Sparkles } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { AnimatedWord } from "@/components/AnimatedWord";
-import { AudioToggle } from "@/components/AudioToggle";
+import { LandingImageCarousel } from "@/components/LandingImageCarousel";
 import { SafeImage } from "@/components/SafeImage";
+import { SawaLongFormTypewriter } from "@/components/SawaLongFormTypewriter";
 import { useReducedMotionPreference } from "@/components/ReducedMotionProvider";
 import { Button } from "@/components/ui/button";
 import { heroStates } from "@/data/heroStates";
-import { useAudioPreview } from "@/hooks/useAudioPreview";
 import { cn } from "@/lib/utils";
 
 const accentText = {
   gold: "text-gold",
-  ocean: "text-cyan-100",
-  clay: "text-orange-100",
-  palm: "text-emerald-100"
+  ocean: "text-sawa-orange",
+  clay: "text-sawa-flame",
+  palm: "text-sawa-yellow"
 };
 
 const accentBg = {
-  gold: "bg-gold",
-  ocean: "bg-ocean",
-  clay: "bg-clay",
-  palm: "bg-palm"
+  gold: "bg-sawa-yellow",
+  ocean: "bg-sawa-orange",
+  clay: "bg-sawa-flame",
+  palm: "bg-sawa-yellow"
 };
 
 export function HeroSawaStates() {
   const [index, setIndex] = useState(0);
   const prefersReducedMotion = useReducedMotionPreference();
   const current = heroStates[index];
-
-  const audio = useAudioPreview({
-    src: current.audio,
-    label: current.mood
-  });
-
-  const wordSizeClass =
-    current.headline.length >= 8
-      ? "text-[clamp(3rem,9.2vw,9.25rem)]"
-      : current.headline.length >= 7
-        ? "text-[clamp(3.1rem,10vw,10rem)]"
-        : "text-[clamp(3.35rem,12vw,12rem)]";
 
   useEffect(() => {
     if (prefersReducedMotion) return;
@@ -63,7 +51,7 @@ export function HeroSawaStates() {
 
   return (
     <section
-      className="relative min-h-[100svh] overflow-hidden pt-20 text-ivory"
+      className="relative min-h-[100svh] overflow-hidden bg-sawa-purple pt-20 text-ivory"
       aria-labelledby="sawa-states-title"
     >
       <AnimatePresence mode="wait">
@@ -86,14 +74,15 @@ export function HeroSawaStates() {
         </motion.div>
       </AnimatePresence>
 
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,5,4,0.92),rgba(5,5,4,0.62)_44%,rgba(5,5,4,0.3)),linear-gradient(0deg,rgba(5,5,4,0.98),rgba(5,5,4,0.18)_42%,rgba(5,5,4,0.76))]" />
-      <div className="absolute -right-28 top-28 hidden size-[34rem] rounded-full opacity-40 blur-sm rhythm-ring lg:block" />
-      <div className="absolute bottom-16 left-10 hidden size-56 rounded-full border border-gold/15 lg:block">
-        <span className="absolute inset-4 rounded-full border border-ocean/25" />
-        <span className="absolute inset-9 rounded-full border border-clay/25" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(42,26,94,0.96),rgba(42,26,94,0.72)_42%,rgba(42,26,94,0.42)),linear-gradient(0deg,rgba(7,4,17,0.98),rgba(42,26,94,0.24)_45%,rgba(7,4,17,0.72))]" />
+      <div className="absolute -right-28 top-28 hidden size-[34rem] rounded-full opacity-45 blur-sm rhythm-ring lg:block" />
+      <div className="absolute left-0 top-20 h-2 w-full bg-bead-line" />
+      <div className="absolute bottom-16 left-10 hidden size-56 rounded-full border border-sawa-yellow/20 lg:block">
+        <span className="absolute inset-4 rounded-full border border-sawa-orange/25" />
+        <span className="absolute inset-9 rounded-full border border-sawa-flame/25" />
       </div>
 
-      <div className="container relative z-10 grid min-h-[calc(100svh-5rem)] min-w-0 items-end gap-10 pb-8 pt-10 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,25rem)] lg:pb-12">
+      <div className="container relative z-10 grid min-h-[calc(100svh-5rem)] min-w-0 items-center gap-10 pb-8 pt-10 lg:grid-cols-[minmax(0,1fr)_minmax(23rem,34rem)] lg:pb-12">
         <div className="min-w-0 max-w-6xl">
           <motion.div
             initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
@@ -111,20 +100,30 @@ export function HeroSawaStates() {
             </span>
           </motion.div>
 
-          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-gold">
-            SAWA Ensemble
-          </p>
           <h1
             id="sawa-states-title"
-            className={cn(
-              "mt-5 max-w-full overflow-visible font-display leading-[0.8] tracking-normal text-ivory",
-              wordSizeClass
-            )}
+            className="max-w-full overflow-visible font-display leading-[0.82] tracking-normal text-ivory"
           >
-            <AnimatedWord word={current.headline} />
+            <span className="block text-[clamp(5.4rem,16vw,14rem)] text-sawa-yellow drop-shadow-[0_12px_60px_rgba(251,229,85,0.2)]">
+              SAWA
+            </span>
+            <span className="-mt-2 block text-[clamp(3.1rem,7.4vw,7rem)] text-ivory">
+              Ensemble
+            </span>
           </h1>
+
+          <div className="mt-7 max-w-2xl">
+            <SawaLongFormTypewriter />
+          </div>
+
           <div className="mt-7 max-w-4xl">
-            <p className={cn("text-xl leading-9 text-balance sm:text-3xl", accentText[current.accent])}>
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sawa-orange">
+              Current state:{" "}
+              <span className={cn("inline-block", accentText[current.accent])}>
+                <AnimatedWord word={current.headline} />
+              </span>
+            </p>
+            <p className="mt-4 text-xl leading-9 text-balance text-ivory sm:text-3xl">
               {current.subline}
             </p>
             <p className="mt-4 max-w-2xl text-base leading-8 text-ivory/65 sm:text-lg">
@@ -142,28 +141,18 @@ export function HeroSawaStates() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="ghost">
-              <Link href="/workshops">
-                <CalendarDays aria-hidden="true" />
-                Book a Workshop
+              <Link href="#services">
+                <Sparkles aria-hidden="true" />
+                Our Services
               </Link>
             </Button>
           </div>
         </div>
 
-        <div className="min-w-0 space-y-4 lg:w-full lg:max-w-[25rem] lg:justify-self-end lg:self-end">
-          <AudioToggle
-            enabled={audio.enabled}
-            isPlaying={audio.isPlaying}
-            muted={audio.muted}
-            hasError={audio.hasError}
-            label={audio.label}
-            onPlay={audio.play}
-            onTogglePlay={audio.togglePlay}
-            onToggleMute={audio.toggleMute}
-            onContinueSilently={audio.continueSilently}
-          />
+        <div className="min-w-0 space-y-4 lg:w-full lg:max-w-[34rem] lg:justify-self-end">
+          <LandingImageCarousel />
 
-          <div className="grid w-full min-w-0 grid-cols-4 gap-2 rounded-2xl border border-ivory/15 bg-charcoal-950/45 p-2 backdrop-blur-xl">
+          <div className="grid w-full min-w-0 grid-cols-4 gap-2 rounded-2xl border border-sawa-yellow/20 bg-sawa-purple/55 p-2 backdrop-blur-xl">
             {visibleStates.map((state) => {
               const targetIndex = heroStates.findIndex((item) => item.word === state.word);
               const active = current.word === state.word;
@@ -186,9 +175,6 @@ export function HeroSawaStates() {
                   />
                   <span className="block truncate text-xs font-semibold text-ivory">
                     {state.word}
-                  </span>
-                  <span className="mt-1 block text-[0.65rem] uppercase tracking-[0.16em] text-ivory/40">
-                    Mood
                   </span>
                 </button>
               );

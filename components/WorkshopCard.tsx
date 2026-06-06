@@ -27,7 +27,7 @@ export function WorkshopCard({
     <motion.article
       id={workshop.slug}
       className={cn(
-        "group overflow-hidden rounded-[1.75rem] border border-sand/20 bg-[linear-gradient(135deg,rgba(247,240,222,0.08),rgba(216,166,66,0.06)_34%,rgba(29,105,130,0.08))] shadow-ocean",
+        "group overflow-hidden rounded-[1.75rem] border border-sawa-yellow/20 bg-[linear-gradient(135deg,rgba(251,229,85,0.1),rgba(251,146,36,0.08)_34%,rgba(42,26,94,0.18))] shadow-ocean",
         className
       )}
       whileHover={prefersReducedMotion ? undefined : { y: -8 }}
